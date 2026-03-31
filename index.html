@@ -6,12 +6,13 @@
 		<meta name="author" content="Lucy Havok">
 		<meta name="creator" content="Lucy Havok">
 		<meta name="description" content="Small tool for easily and simply calculating binary values using switches for each place." lang=en>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="index.js"></script>
 	</head>
 	<body>
-		<table style="table-layout:fixed;width:32ch;text-align:center;">
+		<table style="text-align:center;margin:auto;width:32ch;">
 			<tr>
-				<th>Dec</th>
+				<th style="width:7ch">Decimal</th>
 				<td>128</td>
 				<td>64</td>
 				<td>32</td>
@@ -20,7 +21,7 @@
 				<td>4</td>
 				<td>2</td>
 				<td>1</td>
-				<td id="fulldec" style="text-align:left !important;"></td>
+				<td id="fulldec" style="text-align:left !important;width:3ch"></td>
 			</tr>
 			<tr>
 				<th></th>
@@ -34,7 +35,7 @@
 				<td><input type="checkbox" id="0sw" onchange="checkboxFlipped(this);"></td>
 			</tr>
 			<tr style="font-family:monospace;">
-				<th>Bin</th>
+				<th style="width:7ch">Binary</th>
 				<td id="7st"></td>
 				<td id="6st"></td>
 				<td id="5st"></td>
@@ -43,7 +44,7 @@
 				<td id="2st"></td>
 				<td id="1st"></td>
 				<td id="0st"></td>
-				<td id="fullbin" style="text-align:left !important;"></td>
+				<td id="fullbin" style="text-align:left !important;width:8ch"></td>
 			</tr>
 		<table>
 		<script>
